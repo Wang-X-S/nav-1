@@ -1,0 +1,46 @@
+Arguments: 
+  D:\Software\nodejs\node.exe D:\Software\yarn\bin\yarn.js build
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\82037\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Software\nodejs;D:\Software\yarn\bin;D:\Software\hugo;D:\Software\cmder;C:\Users\82037\AppData\Local\Microsoft\WindowsApps;D:\360安全浏览器下载\install_vpn_v2\新建文件夹\OpenVPN\bin;C:\Users\82037\AppData\Roaming\npm;C:\Users\82037\AppData\Local\Yarn\bin;D:\Software\Microsoft VS Code\bin;D:\Software\cmder
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Software\Wang-X-S\nav-1\package.json: Unexpected token { in JSON at position 107
+      at JSON.parse (<anonymous>)
+      at D:\Software\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\Software\yarn\lib\cli.js:310:30)
+      at D:\Software\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts":{
+      "build":"rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+    }
+  }
+  {
+    "devDependencies": {
+      "cssnano": "^4.1.10"
+    },
+    "name": "nav-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Wang-X-S/nav-1.git",
+    "author": "Wang-XS <Wang-XS@hotmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
